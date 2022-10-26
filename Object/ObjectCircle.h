@@ -33,4 +33,6 @@ private:
 
 	//つかみ情報
 	bool m_isCatch;			//つかまれているかどうか
+	Vec2 m_catchOffset;		//掴んだ位置から中心へのベクトル
+
 };

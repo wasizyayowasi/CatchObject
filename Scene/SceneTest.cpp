@@ -5,6 +5,13 @@
 
 namespace
 {
+	constexpr int kObjectNum = 4;
+}
+
+SceneTest::SceneTest() :
+	m_circle(kObjectNum)
+{
+
 }
 
 void SceneTest::init()
